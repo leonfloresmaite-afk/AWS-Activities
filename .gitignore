@@ -1,0 +1,23 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+
+# Credenciales y archivos de AWS 
+.aws/
+*/.aws/
+credentials
+config
+*.pem
+*.csv
+
+# Variables de entorno y secretos
+.env
+.env.*
+*.json
+
+# Archivos del sistema y cachés de Python
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
